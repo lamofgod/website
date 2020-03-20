@@ -3,9 +3,32 @@
 <head>
 	<title>homepage</title>
 
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<!--webpage css-->
+	<link rel="stylesheet" href="homepage.css">
+
 </head>
 
 <body>
-	<h1>HI</h1>
+    
+	<h1 class="header">HI, my name is Brandon.</h1>
+	
+	<p class="about-me">I'm currently a 5th year Business Economics student @ UCR.</p>
+	<br>
+	<div class="UCR">
+		<p>As of </p><p id="test"></p>
 
-</body>
+	</div>
+
+	<script>
+		var date = new Date();
+		document.getElementById("test").innerHTML = date.toDateString();
+	</script>
+	
+	<div class="current-events">
+		<h1 class="current-events-header">In light of recent events (most notably COVID-19), here are some resources you can check out to get some insight.</h1>
+		<h1 class="current-events-header">Please be cautious when looking up information online. These are just the sources I use to get information online.</h1>
+</body> 

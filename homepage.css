@@ -1,0 +1,36 @@
+body
+{
+    background-color: mediumslateblue;
+    font-family: lato;
+}
+
+.header
+{
+    font-family: lato;
+    text-align: center;
+    margin-top: 50px;
+    color: magenta;
+    font-size: 50px;
+}
+
+.about-me
+{
+    font-family: lato;
+    text-align: center;
+    color: #00f9ff;
+    font-size: 35px;
+}
+
+.current-events-header
+{
+    font-family: lato;
+    font-size: 20 px;
+    margin-left: 50px;
+    font-weight: normal;
+}
+
+.UCR
+{
+    text-align: center;
+    font-size: 25px;
+}
