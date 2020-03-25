@@ -1,34 +1,68 @@
 <!DOCTYPE html>
+<html>
+	<head>
+		<title>homepage</title>
 
-<head>
-	<title>homepage</title>
+		<!-- fonts -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-	<!-- fonts -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-	<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<!--Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-	<!--webpage css-->
-	<link rel="stylesheet" href="homepage.css">
+		<!--webpage css-->
+		<link rel="stylesheet" href="homepage.css">
 
-</head>
+		<!-- bootstrap js-->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<body>
-    
-	<h1 class="header">HI, my name is Brandon.</h1>
-	
-	<p class="about-me">I'm currently a 5th year Business Economics student @ UCR.</p>
-	<br>
-	<div class="UCR">
-		<p>As of </p><p id="test"></p>
 
-	</div>
+	</head>
 
-	<script>
-		var date = new Date();
-		document.getElementById("test").innerHTML = date.toDateString();
-	</script>
-	
-	<div class="current-events">
-		<h1 class="current-events-header">In light of recent events (most notably COVID-19), here are some resources you can check out to get some insight.</h1>
-		<h1 class="current-events-header">Please be cautious when looking up information online. These are just the sources I use to get information online.</h1>
-</body> 
+	<body>
+		
+		<p class="covid-19">UCR has moved to remote instruction for Spring 2020 until at least April 30, 2020</p>
+
+		<h1 class="name">Brandon Lam</h1>
+		
+		<p class="about-me">Business Econ student @ UCR.</p>
+		<br>
+		
+		<!--<script>
+			var date = new Date();
+			document.getElementById("test").innerHTML = date.toDateString();
+		</script>
+		-->
+
+		<div class="current-events">
+			<h1 class="current-events-header">In light of recent events (most notably COVID-19), here are some resources you can check out to get some insight.</h1>
+			<h1 class="current-events-header">Please be cautious when looking up information online. These are just the sources I've looked at, and some not even that often.</h1>
+		</div>
+
+		<footer class="footer">
+			<ul class="footer-icons">
+				<li><a href="https://www.github.com/lamofgod">
+					<img src="images/GitHub.png" alt="GitHub-icon">
+				</li>
+
+				<li>
+					<div class="linked-in">
+						<a href="https://www.linkedin.com/in/brandon-lam-99ba30149/">
+						<img src="images/linkedin-icon.png" alt="LinkedIn-icon">
+					</div>
+				</li>
+
+				<li>
+					<div class="mail"> 
+						<a href="mailto: brandonlammd@gmail.com">
+						<img src="images/mail-icon.png" alt="Mail-icon">
+					</div>
+				</li>
+			</ul>
+		</footer>
+		
+	</body> 
+
+</html>
