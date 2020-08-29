@@ -2,13 +2,36 @@ body
 {
 	background-color: mediumslateblue;
 	font-family: lato;
+	
+}
+
+.main-header
+{
+	font-family: lato;
+	text-align: center !important;
+	margin: auto;
+	width: 50%;
+	padding-top: 350px;
+	color: magenta;
+	font-size: 100px;
+	font-weight: 800 !important;
+}
+
+.sub-header
+{
+	font-family: lato;
+	text-align: center !important;
+	padding-top: 50px;
+	color: magenta;
+	font-size: 100px;
+	font-weight: 800 !important;
 }
 
 .name
 {
 	font-family: lato;
 	text-align: center !important;
-	margin-top: 270px;
+	margin-top: 500px;
 	color: magenta;
 	font-size: 100px;
 	font-weight: 800 !important;
@@ -23,9 +46,19 @@ body
 	margin-top: 50px;
 }
 
+.about-me2
+{
+	font-family: lato;
+	text-align: center;
+	color: #00f9ff;
+	font-size: 20px;
+	margin-top: 25px;
+}
+
+
 .current-events
 {
-	margin-top: 350px;
+	margin-top: 500px;
 }
 
 .current-events-header
@@ -34,7 +67,7 @@ body
 	font-size: 20px;
 	margin-left: 50px;
 	font-weight: normal;
-
+	color: white;
 }
 
 .UCR
@@ -71,17 +104,53 @@ body
 	width: 32px;
 }
 
+.links-style
+{
+	margin-left: 30px;
+	list-style-type: none;
+	
+}
+
+.links-style a
+{
+	text-decoration: none;
+	color: lightblue;
+}
+
 .footer-icons
 {
 	position: relative;
-	padding-bottom: 10px;
+	
 	text-align: center;
-	bottom: -200px;
-	padding-bottom: -30px;
+	bottom: -300px;
+	padding-top: 10px;
 }
 
-.footer
+.navbar
 {
-	bottom: 10px;
+	float: right;
+	margin: 0;
+	
 }
-  
+
+.navbar-links
+{
+	padding-right: 40px;
+	font-size: 30px;
+	font-family: century gothic;
+	text-decoration: none;
+	list-style-type: none;
+	color: mediumturquoise;
+	text-align: center;
+	display: inline;
+}
+
+.main-header2
+{
+	font-family: lato;
+	text-align: center !important;
+	padding-top: 50px;
+	color: magenta;
+	font-size: 100px;
+	font-weight: 800 !important;
+}
