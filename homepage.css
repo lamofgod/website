@@ -1,8 +1,13 @@
 body
 {
-	background-color: mediumslateblue;
+	background-color: #1c2e4a;
 	font-family: lato;
 	
+}
+
+html
+{
+	scroll-behavior: smooth;
 }
 
 .main-header
@@ -12,6 +17,18 @@ body
 	margin: auto;
 	width: 50%;
 	padding-top: 350px;
+	color: magenta;
+	font-size: 100px;
+	font-weight: 800 !important;
+	top: 50%;
+}
+
+
+.main-header2
+{
+	font-family: lato;
+	text-align: center !important;
+	padding-top: 50px;
 	color: magenta;
 	font-size: 100px;
 	font-weight: 800 !important;
@@ -37,7 +54,7 @@ body
 	font-weight: 800 !important;
 }
 
-.about-me
+.header-about-me
 {
 	font-family: lato;
 	text-align: center;
@@ -46,7 +63,7 @@ body
 	margin-top: 50px;
 }
 
-.about-me2
+.header-about-me2
 {
 	font-family: lato;
 	text-align: center;
@@ -61,13 +78,14 @@ body
 	margin-top: 500px;
 }
 
-.current-events-header
+.about-section
 {
 	font-family: lato;
 	font-size: 20px;
 	margin-left: 50px;
 	font-weight: normal;
 	color: white;
+	padding-top: 100px;
 }
 
 .UCR
@@ -124,33 +142,28 @@ body
 	text-align: center;
 	bottom: -300px;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .navbar
 {
 	float: right;
 	margin: 0;
-	
+	color: turquoise;
 }
 
 .navbar-links
 {
+	margin-top: 30px;
+}
+.navbar-css
+{
 	padding-right: 40px;
 	font-size: 30px;
-	font-family: century gothic;
+	font-family: roboto;
 	text-decoration: none;
 	list-style-type: none;
-	color: mediumturquoise;
+	color:aqua;
 	text-align: center;
 	display: inline;
-}
-
-.main-header2
-{
-	font-family: lato;
-	text-align: center !important;
-	padding-top: 50px;
-	color: magenta;
-	font-size: 100px;
-	font-weight: 800 !important;
 }
