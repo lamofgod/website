@@ -1,0 +1,49 @@
+
+nav
+{
+	background-color: #14171d;
+	background: #14171d;
+	width: 100%;
+}
+nav .navbar
+{
+	position: relative;
+	height: 100%;
+	background-color: #14171d;
+}
+
+.navbar-links
+{
+	float: right !important;
+	
+	margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar-links li
+{
+    display: inline;
+
+}
+
+.navbar-css
+{
+	padding: 8px 8px;
+	
+	font-size: 30px;
+	font-family: roboto;
+	text-decoration: none;
+	
+	color:aqua;
+	text-align: center;
+}
+
+.navbar-links a:hover
+{
+	color: aqua;
+	text-decoration: none !important;
+	background-color: gray;
+	padding: 8px 8px;
+
+}
