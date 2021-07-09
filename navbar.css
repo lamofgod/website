@@ -1,24 +1,32 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	
+}
 
 nav
 {
-	background-color: #14171d;
-	background: #14171d;
+	display: flex;
+	background-color: #403638;
+	justify-content: flex-end;
 	width: 100%;
+	padding: 8px 8px;
+	border: 0;
+	
 }
-nav .navbar
+
+#nav-end
 {
-	position: relative;
-	height: 100%;
-	background-color: #14171d;
+	margin-right: -8px;
 }
 
 .navbar-links
 {
-	float: right !important;
-	
 	margin: auto;
     text-decoration: none;
     list-style-type: none;
+	
 }
 
 .navbar-links li
@@ -44,6 +52,6 @@ nav .navbar
 	color: aqua;
 	text-decoration: none !important;
 	background-color: gray;
-	padding: 8px 8px;
+	/*padding: 8px 8px;*/
 
 }
