@@ -8,12 +8,18 @@
 nav
 {
 	display: flex;
-	background-color: #403638;
+	background-color: #000437;
 	justify-content: flex-end;
 	width: 100%;
-	padding: 8px 8px;
+	padding: 25px 25px;
 	border: 0;
-	
+	white-space: nowrap;
+}
+
+.navbar
+{
+	display: flex;
+	justify-content: center;
 }
 
 #nav-end
@@ -37,21 +43,70 @@ nav
 
 .navbar-css
 {
-	padding: 8px 8px;
+	padding: 25px 25px;
 	
-	font-size: 30px;
-	font-family: roboto;
+	font-size: 20px;
+	font-family: avenir;
 	text-decoration: none;
-	
+	font-weight: 500;
 	color:aqua;
 	text-align: center;
 }
 
 .navbar-links a:hover
 {
-	color: aqua;
+	color: lightgray;
 	text-decoration: none !important;
-	background-color: gray;
+	/*background-color: gray;*/
 	/*padding: 8px 8px;*/
+}
+
+.active
+{
+	color: magenta;
+}
+
+.icon
+{
+	color: white;
+}
+
+.burger
+{
+	float: right;
+}
+
+.burger div
+{
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 4px;
+}
+
+ /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 1366px) 
+{
 
 }
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 1024px) 
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+
+	.navbar-links
+	{
+		position: absolute;
+		top: 8vh;
+		display: flex;
+		flex-direction: column;
+		right: 15px;
+		height: 100vh;
+		padding: 20px 20px;
+	}
+	
+} 

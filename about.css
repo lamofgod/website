@@ -1,0 +1,24 @@
+body
+{
+	background-color: #14171d;
+	overflow-x: hidden;
+} 
+
+.header
+{
+  font-size: 50px;
+  border-bottom: 2px solid currentColor;
+  margin: 0;
+}
+
+.aqua-text
+{
+  color: aqua;
+}
+
+.container
+{
+  margin: 4% 10%;
+  font-family: avenir;
+}
+
