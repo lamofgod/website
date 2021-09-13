@@ -42,7 +42,7 @@ body
 	text-align: center;
 	color: #00f9ff;
 	font-size: 35px;
-	top: 56%;
+	top: 60%;
 	padding-top: 40px;
 }
 
@@ -72,13 +72,16 @@ body
 
 .footer-icons
 {
+	display: flex;
+	justify-content: center;
 	position: absolute;
 	top: 72%;
-	text-align: center;
-	width: 97%;
+	align-items: center;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 30px;
+	
 }
 
 .footer-icons li 
@@ -87,7 +90,7 @@ body
 	display: inline-block;
 	text-decoration: none;
 	padding: 20px;
-	
+
 }
 
 footer-icons a

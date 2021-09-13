@@ -3,3 +3,18 @@ body
 	background-color: #14171d;
 	overflow-x: hidden;
 } 
+
+.contact-info
+{
+	position: relative;
+	margin-top: 150px;
+}
+
+.contact-info p
+{
+	color: white;
+	font-family: lato;
+	position: relative;
+	
+	left: 20%;
+}
