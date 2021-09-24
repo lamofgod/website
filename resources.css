@@ -16,7 +16,7 @@ body
   color: aqua;
 }
 
-.container
+.resource-info
 {
   margin: 4% 10%;
   font-family: avenir;
@@ -25,4 +25,15 @@ body
 .white-text
 {
   color: white;
+}
+
+
+.resource-info li
+{
+  list-style-type: none;
+}
+
+.resource-info li a:hover
+{
+  color: magenta;
 }
