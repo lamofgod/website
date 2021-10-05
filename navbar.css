@@ -112,7 +112,7 @@ nav
 		flex-direction: column;
 		right: 0px;
 		height: 100vh;
-		padding: 30px 30px;
+		padding: 30px 50px;
 		background-color: #020c1b;
 		transform: translateX(0%);
 		transition: transform 0.5s ease;
@@ -121,8 +121,8 @@ nav
 	
 	.navbar-links.responsive li
 	{
-		padding: 30px 30px;
-		
+		padding: 30px 50px;
+		border-bottom: solid 1px #fff;
 	}
 
 	.mobile-button
