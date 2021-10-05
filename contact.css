@@ -6,15 +6,15 @@ body
 
 .contact-info
 {
-	position: relative;
-	margin-top: 150px;
+	position: absolute;
+	margin-top: 100px;
+	left: 15%;
 }
 
 .contact-info p
 {
 	color: white;
 	font-family: lato;
-	position: relative;
 	
 	left: 20%;
 }
