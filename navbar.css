@@ -146,3 +146,14 @@ nav
   transform: rotate(45deg) translate(-3px, -4px);
 }
 
+.footer
+{
+	position: fixed;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  font-family: lato;
+	font-size: 20px;
+  color: white;
+  text-align: center;
+}

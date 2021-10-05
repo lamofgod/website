@@ -12,7 +12,7 @@ body
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 45px;
+	margin-top: 100px;
 }
 
 .home-info
@@ -31,7 +31,7 @@ body
 	color: magenta;
 	font-size: 100px;
 	font-weight: 800 !important;
-	top: 45%; /* vertical alignment*/
+	top: 55%; /* vertical alignment*/
 }
 
 .header-about-me
@@ -72,11 +72,9 @@ body
 
 .footer-icons
 {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	top: 72%;
-	align-items: center;
+	position: relative;
+	top: 78%;
+	text-align: center;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -86,11 +84,17 @@ body
 
 .footer-icons li 
 {
+	margin-top: 130px;
 	position: relative;
 	display: inline-block;
 	text-decoration: none;
-	padding: 20px;
+	padding: 10px;
 
+}
+
+#mail
+{
+	margin-right: 35px;
 }
 
 footer-icons a
@@ -109,18 +113,18 @@ footer-icons a
   }
 
 .fa-linkedin {
-	background: black;
+	/*background: black;*/
 	color: white;
   }
 
 .fa-github
 {
-	background: black;
+	/*background: black;*/
 	color: white;
 }
 
 .fa-envelope-square
 {
-	background: black;
+	/*background: black;*/
 	color: white;
 }
