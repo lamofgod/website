@@ -119,16 +119,22 @@ nav
 		z-index: 10;
 	}
 	
-	.navbar-links.responsive li
+	.navbar-links.responsive li:not(:last-child)
 	{
 		padding: 30px 50px;
 		border-bottom: solid 1px #fff;
+	}
+
+	.navbar-links.responsive li:last-child
+	{
+		padding: 30px 50px;
 	}
 
 	.mobile-button
 	{
 		display: block;
 	}
+
 }
 
 .toggle .line1

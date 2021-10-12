@@ -72,8 +72,8 @@ body
 
 .footer-icons
 {
-	position: relative;
-	top: 78%;
+	position: absolute;
+	top: 60%;
 	text-align: center;
 	width: 100%;
 	margin-left: auto;
@@ -127,4 +127,22 @@ footer-icons a
 {
 	/*background: black;*/
 	color: white;
+}
+
+@media screen and (max-width: 1024px)
+{
+	.home-image
+	{
+		display: none;
+	}	
+
+	.name
+	{
+		top: 40%;
+	}
+
+	.footer-icons
+	{
+		top: 55%;
+	}
 }
