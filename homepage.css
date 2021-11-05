@@ -34,46 +34,11 @@ body
 	top: 55%; /* vertical alignment*/
 }
 
-.header-about-me
-{
-	position: absolute;
-	width: 100%;
-	font-family: lato;
-	text-align: center;
-	color: #00f9ff;
-	font-size: 35px;
-	top: 60%;
-	padding-top: 40px;
-}
-
-.header-about-me2
-{
-	position: absolute;
-	font-family: lato;
-	text-align: center;
-	width: 100%;
-	color: #00f9ff;
-	font-size: 35px;
-	top: 65%;
-	padding-top: 40px;
-}
-
-.about-section
-{
-	position: absolute;
-	font-family: lato;
-	font-size: 20px;
-	margin-left: 50px;
-	font-weight: normal;
-	color: white;
-	top: 80%;
-	
-}
 
 .footer-icons
 {
-	position: absolute;
-	top: 60%;
+	position: relative;
+	top: 78%;
 	text-align: center;
 	width: 100%;
 	margin-left: auto;
@@ -127,22 +92,4 @@ footer-icons a
 {
 	/*background: black;*/
 	color: white;
-}
-
-@media screen and (max-width: 1024px)
-{
-	.home-image
-	{
-		display: none;
-	}	
-
-	.name
-	{
-		top: 40%;
-	}
-
-	.footer-icons
-	{
-		top: 55%;
-	}
 }
