@@ -23,3 +23,14 @@ body
 {
 	color: aqua;
 }
+
+.add-space
+{
+	padding-right: 20px;
+}
+
+.fa-envelope-square
+{
+	/*background: black;*/
+	color: white;
+}
