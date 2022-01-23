@@ -86,15 +86,6 @@ nav
 	margin: 4px;
 }
 
- /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
- @media screen and (max-width: 1024px) 
-{
-	.navbar-links
-	{
-		display: none;
-	}
-}
-
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 1024px) 
 {
@@ -104,7 +95,12 @@ nav
 		overflow-y: hidden;
 	}
 
-	.navbar-links.responsive
+	.navbar-smooth
+	{
+		transition: .5s ease;
+	}
+
+	.navbar-links
 	{
 		position: absolute;
 		top: 8vh;
@@ -114,15 +110,23 @@ nav
 		height: 100vh;
 		padding: 30px 50px;
 		background-color: #020c1b;
-		transform: translateX(0%);
-		transition: transform 0.5s ease;
+		transform: translateX(100%);
 		z-index: 10;
 	}
-	
+
+	.navbar-active.responsive li:not(:last-child)
+	{
+		padding: 30px 50px;
+	}
+
+	.navbar-active.responsive li:last-child
+	{
+		padding: 30px 50px;
+	}
 	.navbar-links.responsive li:not(:last-child)
 	{
 		padding: 30px 50px;
-		border-bottom: solid 1px #fff;
+	
 	}
 
 	.navbar-links.responsive li:last-child
@@ -135,7 +139,22 @@ nav
 		display: block;
 	}
 
+	.navbar-active
+	{
+		transform: translateX(0%);
+		position: absolute;
+		top: 8vh;
+		display: flex;
+		flex-direction: column;
+		right: 0px;
+		height: 100vh;
+		padding: 30px 50px;
+		background-color: #020c1b;
+		z-index: 10;
+	}
+
 }
+
 
 .toggle .line1
 {
