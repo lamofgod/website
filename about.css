@@ -18,8 +18,11 @@ body
 
 .container
 {
-  margin: 4% 10%;
+  margin: auto;
   font-family: lato;
+  white-space: nowrap;
+  width: 50%;
+  
 }
 
 .white-text
@@ -30,4 +33,20 @@ body
 .interests li::before
 {
   color: white;
+}
+
+.top-gap
+{
+  margin-top: 50px;
+}
+
+.separator
+{
+  padding-top: 15px;
+  
+}
+
+.center
+{
+  width: 100%;
 }

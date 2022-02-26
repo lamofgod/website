@@ -95,41 +95,18 @@ nav
 		overflow-y: hidden;
 	}
 
-	.navbar-smooth
-	{
-		transition: .5s ease;
-	}
-
 	.navbar-links
 	{
-		position: absolute;
-		top: 8vh;
-		display: flex;
-		flex-direction: column;
-		right: 0px;
-		height: 100vh;
-		padding: 30px 50px;
-		background-color: #020c1b;
-		transform: translateX(100%);
-		z-index: 10;
+		display: none;
 	}
 
 	.navbar-active.responsive li:not(:last-child)
 	{
 		padding: 30px 50px;
+		border-bottom: 1px solid white;
 	}
 
 	.navbar-active.responsive li:last-child
-	{
-		padding: 30px 50px;
-	}
-	.navbar-links.responsive li:not(:last-child)
-	{
-		padding: 30px 50px;
-	
-	}
-
-	.navbar-links.responsive li:last-child
 	{
 		padding: 30px 50px;
 	}
@@ -151,6 +128,7 @@ nav
 		padding: 30px 50px;
 		background-color: #020c1b;
 		z-index: 10;
+		transition: all 0.5s ease;
 	}
 
 }

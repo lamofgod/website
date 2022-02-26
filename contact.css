@@ -4,19 +4,17 @@ body
 	overflow-x: hidden;
 } 
 
-.contact-info
+.container
 {
-	position: absolute;
-	margin-top: 100px;
-	left: 15%;
+	margin: auto;
+	width: 50%;
+	white-space: nowrap;
 }
 
-.contact-info p
+.container p
 {
 	color: white;
 	font-family: lato;
-	
-	left: 20%;
 }
 
 #aqua-text
@@ -24,6 +22,12 @@ body
 	color: aqua;
 }
 
+.top-gap
+{
+	padding-top: 50px;
+}
+
+/* for the space between email icon*/
 .add-space
 {
 	padding-right: 20px;

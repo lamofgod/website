@@ -1,6 +1,6 @@
 
 let clicked = 0;
-const nav = document.querySelector('.navbar-links');
+const nav = document.querySelector(".navbar-links");
 
 
 function myFunction() {
@@ -9,22 +9,19 @@ function myFunction() {
 
   if (clicked === 0)
   {
-    nav.className = "navbar-active navbar-smooth";
+    nav.className = "navbar-active";
     nav.className += " responsive";
     ++clicked;
-    console.log(clicked);
   }
   else
   {
-    nav.className = "navbar-links navbar-smooth";
-    nav.className += " responsive";
+    /*nav.className = "navbar-inactive";
+    nav.className += " responsive";*/
     --clicked;
-    console.log(clicked);
+    nav.className = "navbar-links";
   }
   
-    /*
-    nav.classList.toggle('navbar-inactive');
-    
+
   /* toggles icon to an x*/
   y.classList.toggle("toggle");
 }
