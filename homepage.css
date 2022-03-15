@@ -14,7 +14,7 @@ body
 	margin-left: auto;
 	margin-right: auto;
 	top: 50%;
-	margin-top: 90px;
+	margin-top: 60px;
 	box-sizing: border-box;
 }
 
@@ -111,4 +111,15 @@ footer-icons a
 	{
 		top: 55%;
 	}
+}
+
+.message
+{
+	color: magenta;
+	width: 100%;
+	text-align: center;
+	background-color: #152238;
+	font-family: lato;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
