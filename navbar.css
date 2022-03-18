@@ -113,6 +113,7 @@ nav
 
 	.mobile-button
 	{
+		z-index: 10;
 		display: block;
 	}
 
@@ -120,7 +121,7 @@ nav
 	{
 		transform: translateX(0%);
 		position: absolute;
-		top: 8vh;
+		top: 10vh; /* this should be 8 if no header msg*/
 		display: flex;
 		flex-direction: column;
 		right: 0px;
@@ -136,6 +137,7 @@ nav
 
 .toggle .line1
 {
+	z-index: 10;
   transform: rotate(-45deg) translate(-5px, 5px);
 }
 
@@ -146,6 +148,7 @@ nav
 
 .toggle .line3
 {
+	z-index: 10;
   transform: rotate(45deg) translate(-3px, -4px);
 }
 
