@@ -38,3 +38,14 @@ body
 	/*background: black;*/
 	color: white;
 }
+
+.message
+{
+	color: yellow;
+	width: 100%;
+	text-align: center;
+	background-color: #1AA7EC;
+	font-family: lato;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

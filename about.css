@@ -22,7 +22,7 @@ body
   font-family: lato;
   white-space: nowrap;
   width: 55%;
-  
+  word-wrap: break-word;
 }
 
 .white-text
@@ -49,4 +49,15 @@ body
 .center
 {
   width: 100%;
+}
+
+.message
+{
+	color: yellow;
+	width: 100%;
+	text-align: center;
+	background-color: #1AA7EC;
+	font-family: lato;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }

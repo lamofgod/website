@@ -18,8 +18,11 @@ body
 
 .resource-info
 {
-  margin: 4% 10%;
+  margin: auto;
+	width: 55%;
+	white-space: nowrap;
   font-family: lato;
+	padding-top: 80px;
 }
 
 .white-text
@@ -36,4 +39,15 @@ body
 .resource-info li a:hover
 {
   color: magenta;
+}
+
+.message
+{
+	color: yellow;
+	width: 100%;
+	text-align: center;
+	background-color: #1AA7EC;
+	font-family: lato;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
