@@ -51,6 +51,15 @@ body
   width: 100%;
 }
 
+@media screen (max-width: 1024px)
+{
+  .container
+  {
+    margin: 4% 10%;
+    
+  }
+}
+
 .message
 {
 	color: yellow;
