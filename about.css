@@ -23,6 +23,9 @@ body
   white-space: nowrap;
   width: 55%;
   word-wrap: break-word;
+  overflow-x: hidden;
+  white-space: initial;
+  
 }
 
 .white-text
@@ -51,12 +54,13 @@ body
   width: 100%;
 }
 
+
 @media screen (max-width: 1024px)
 {
   .container
   {
-    margin: 4% 10%;
-    
+    /*margin: 4% 10%;*/
+    margin: auto;
   }
 }
 
