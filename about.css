@@ -1,7 +1,8 @@
 body
 {
 	background-color: #14171d;
-	overflow-x: hidden;
+	overflow: auto;
+  width: 100%;
 } 
 
 .header
@@ -18,14 +19,15 @@ body
 
 .container
 {
+  display: flex;
+  flex-direction: column;
   margin: auto;
   font-family: lato;
-  white-space: nowrap;
-  width: 55%;
-  word-wrap: break-word;
-  overflow-x: hidden;
-  white-space: initial;
+  /*white-space: nowrap;*/
+  /*width: 100%;*/
+  flex-wrap: wrap;
   
+  max-width: 850px;
 }
 
 .white-text
@@ -49,18 +51,19 @@ body
   
 }
 
-.center
+/*.center
 {
   width: 100%;
-}
+}*/
 
 
 @media screen (max-width: 1024px)
 {
   .container
   {
-    /*margin: 4% 10%;*/
+
     margin: auto;
+    
   }
 }
 
