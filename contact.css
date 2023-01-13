@@ -1,14 +1,21 @@
 body
 {
 	background-color: #14171d;
-	overflow-x: hidden;
+	overflow: auto;
+	width: 100%;
 } 
 
 .container
 {
+	display: flex;
+	flex-direction: column;
 	margin: auto;
-	width: 50%;
-	white-space: nowrap;
+	font-family: lato;
+	/*white-space: nowrap;*/
+	/*width: 100%;*/
+	flex-wrap: wrap;
+	
+	max-width: 850px;
 }
 
 .container p
@@ -48,4 +55,14 @@ body
 	font-family: lato;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+@media screen (max-width: 1024px)
+{
+  .container
+  {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

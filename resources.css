@@ -1,7 +1,8 @@
 body
 {
 	background-color: #14171d;
-	overflow-x: hidden;
+	overflow: auto;
+	width: 100%;
 } 
 
 .header
@@ -18,11 +19,15 @@ body
 
 .resource-info
 {
-  margin: auto;
-	width: 55%;
-	white-space: nowrap;
-  font-family: lato;
-	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	font-family: lato;
+	/*white-space: nowrap;*/
+	/*width: 100%;*/
+	flex-wrap: wrap;
+	padding-top: 50px;
+	max-width: 850px;
 }
 
 .white-text
@@ -50,4 +55,14 @@ body
 	font-family: lato;
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+@media screen (max-width: 1024px)
+{
+  .container
+  {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
