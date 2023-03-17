@@ -57,6 +57,18 @@ body
 	padding-bottom: 10px;
 }
 
+.straight-text 
+{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.add-space
+{
+  padding-left: 10px;
+}
+
 @media screen (max-width: 1024px)
 {
   .container
